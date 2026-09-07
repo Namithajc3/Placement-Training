@@ -1,0 +1,10 @@
+n=int(input())
+n=bin(n)
+print(n)
+n=n[2:]
+print(n)
+n=n.replace('0','x')
+n=n.replace('1','0')
+n=n.replace('x','1')
+dec=int(n,2)
+print(dec)
